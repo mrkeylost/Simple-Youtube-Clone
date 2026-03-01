@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+  </head>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .header {
+      background-color: black;
+      color: white;
+      position: fixed;
+      top: 0px;
+    }
+
+    .sidebar {
+      background-color: greenyellow;
+      color: white;
+      position: fixed;
+    }
+
+    .absolute {
+      position: absolute;
+      background-color: red;
+      color: white;
+    }
+
+    .div1 {
+      width: 200px;
+      height: 200px;
+      position: static;
+      background-color: lightblue;
+    }
+
+    .div2 {
+      width: 200px;
+      height: 200px;
+      background-color: lightpink;
+    }
+  </style>
+  <body>
+    <div class="header">header</div>
+    <div class="sidebar">sidebar</div>
+    <div class="absolute">absolute</div>
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+  </body>
+</html>
